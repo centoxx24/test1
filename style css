@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(123, 209, 123);
+}
+
+.headerConteiner{
+    background-color: rgb(41, 249, 41);
+    border: 1px solid;
+    outline-color: black;
+    outline-style: hidden;
+    outline-width: 2px;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    border-radius: 15px;
+}
+.headerContainerChild{     /* <--- кружки*/
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid;
+    outline-color: black;
+    outline-style: hidden;
+    outline-width: 2px;
+}
+.headerContainerChildOne{     /* <--- штука между кружками*/
+    align-items: center;
+    width: 500px;
+    height: 68px;
+    background-color: yellow;
+    border: 1px solid;
+    outline-color: black;
+    outline-style: hidden;
+    outline-width: 2px;
+    border-radius: 15px;
+}
+
+.containerParent{
+    margin: 15px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+.conteinerChild{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: yellow;
+    width: 250px;
+    height: 400px;
+    border-radius: 15px;
+        border: 1px solid;
+        outline-color: black;
+        outline-style: hidden;
+        outline-width: 2px;
+
+}
+.conteinerChildImg{
+    border: 1px solid;
+    outline-color: black;
+    outline-style: hidden;
+    outline-width: 2px;
+    display: flex;
+    background-color: yellowgreen;
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+    border: 1px solid;
+    outline-color: black;
+    outline-style: hidden;
+    outline-width: 2px;
+}
+.conteinerChildButton{
+    border-radius: 15px;
+    border: 1px solid;
+    outline-color: black;
+    outline-style: hidden;
+    outline-width: 2px;
+    height: 50px;
+    width: 100px;
+    background-color: green;
+
+}
+
+.conteinerChildOne{
+    border-radius: 15px;
+    border: 1px solid;
+    outline-color: black;
+    outline-style: hidden;
+    outline-width: 2px;
+    display: flex;
+    background-color: yellow;
+    width: 500px;
+    height: 400px;
+}
+
+.footerConteiner{
+    border-radius: 15px;
+    border: 1px solid;
+    outline-color: black;
+    outline-style: hidden;
+    outline-width: 2px;
+    display: flex;
+    background-color: rgb(41, 249, 41);
+    width: 100%;
+    height: 100px;
+}
+.footerContainerChild{
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid;
+    outline-color: black;
+    outline-style: hidden;
+    outline-width: 2px;
+}
+
